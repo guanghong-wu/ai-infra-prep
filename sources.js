@@ -1,0 +1,22 @@
+window.SOURCE_BANK = [
+ {platform:'华为招聘',kind:'官方流程',title:'华为研发类校招面试流程',url:'https://career.huawei.com/reccampportal/portal5/interview-process.html',note:'部分研发岗位有上机考试。页面未给出 AI Infra 的统一卷型、题库或通过线。'},
+ {platform:'牛客',kind:'岗位亲历',title:'数通 AI Infra 暑期实习流程',url:'https://www.nowcoder.com/feed/main/detail/45e3d99e3eae4bd681b7b6627cc47508',note:'2025 年候选人提到该批次机考答了三道题。一面复盘解法，帖子没有完整题面。'},
+ {platform:'牛客',kind:'考生经验',title:'27 届华为校招机试答疑',url:'https://www.nowcoder.com/discuss/921353428964474880',note:'社区资料列出 AI 开发 20 选择 + 2 编程和软件开发 3 编程。请按自己的考试邀请核对。'},
+ {platform:'牛客',kind:'机考回顾',title:'AI 方向 KV Cache 批处理',url:'https://www.nowcoder.com/discuss/948632550891593728',note:'2026 年 11 月公开讨论。用于补充推理调度场景的原创模拟。'},
+ {platform:'牛客',kind:'机考回顾',title:'激活检查点与预算 DP',url:'https://api-cdn.nowcoder.com/discuss/932465000218624000',note:'2026 年 9 月公开讨论。涉及检查点、RANSAC、概率与矩阵知识。'},
+ {platform:'牛客',kind:'机考回顾',title:'AI 实习机考的流水线切段',url:'https://www.nowcoder.com/discuss/912884375732125696',note:'显存约束下的连续分段，练二分答案和可行性判断。'},
+ {platform:'牛客',kind:'机考回顾',title:'K-median 聚类及 AI 选择题',url:'https://www.nowcoder.com/discuss/938812252663070720',note:'2026 年 10 月公开讨论。L1 距离、按维更新，以及 Attention、量化等。'},
+ {platform:'牛客',kind:'机考回顾',title:'信息增益决策树与 K-means 变体',url:'https://www.nowcoder.com/discuss/942592166600232960',note:'与信息增益切分、BIC 选簇数的考点相关。'},
+ {platform:'牛客',kind:'技术面',title:'ICTBG AI Infra 训推系统实习',url:'https://www.nowcoder.com/feed/main/detail/ca63dbe6e45842728251eaa72aed09b3',note:'候选人自述免机考。技术面涉及优先级调度、KV Cache、GPU 与 QLoRA。'},
+ {platform:'B 站',kind:'视频讲解',title:'AI 机考专项拆题合集',url:'https://www.bilibili.com/video/BV1Q2avzSE2j/',note:'公开目录含 MoE、堆、分词、并查集与注意力等场景。'},
+ {platform:'B 站',kind:'视频讲解',title:'大模型显存场景的 0/1 背包',url:'https://www.bilibili.com/video/BV1pHQmBNEy9/',note:'拆解显存分配场景、回溯与背包。'},
+ {platform:'GitHub',kind:'亲历复盘',title:'2026 年 8 月 5 日 AI 机考复盘',url:'https://zewang0217.github.io/notes/huawei-ai-exam-20260805-review/',note:'作者复盘统计、训练策略、空间邻域和多状态 DP 等考点。'},
+ {platform:'GitHub',kind:'社区题单',title:'历年笔试索引',url:'https://github.com/DerekLin924/bat_code',note:'含多个公司和多个岗位方向，部分条目指向第三方平台。'},
+ {platform:'GitHub',kind:'OD 练习',title:'华为 OD 编程练习与解法',url:'https://github.com/wuwenfib/huawei-od-exam-solutions',note:'补 ACM 输入输出与算法思维。OD 为另一招聘通道。'},
+ {platform:'小红书',kind:'站内检索',title:'搜索「华为 AI Infra 机考」',url:'https://www.xiaohongshu.com/search_result?keyword=%E5%8D%8E%E4%B8%BA%20AI%20Infra%20%E6%9C%BA%E8%80%83',note:'公开可访问结果未提供可核实的题目正文；这里保留搜索入口。'},
+ {platform:'昇腾',kind:'官方技术',title:'CANN 社区版文档',url:'https://www.hiascend.com/doc_center/source/zh/CANNCommunityEdition/82RC1alpha002/index/index.html',note:'复习 CANN、Ascend C、算子开发与集合通信。使用时按项目版本查文档。'},
+ {platform:'昇腾',kind:'官方技术',title:'HCCL 集合通信',url:'https://www.hiascend.com/doc_center/source/en/CANNCommunityEdition/850/commlib/hcclug/hcclug_000009.html',note:'复习 AllReduce、AllGather、ReduceScatter 等通信原语。'},
+ {platform:'PyTorch',kind:'官方技术',title:'DistributedDataParallel',url:'https://docs.pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html',note:'核对梯度同步、输入分片和训练注意事项。'},
+ {platform:'GitHub',kind:'岗位技术',title:'vLLM Ascend 插件',url:'https://github.com/vllm-project/vllm-ascend',note:'了解推理框架与昇腾硬件的适配。'},
+ {platform:'Kubernetes',kind:'官方技术',title:'设备插件',url:'https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/device-plugins/',note:'复习向 Kubernetes 暴露加速器资源的方式。'}
+];
